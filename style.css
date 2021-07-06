@@ -5,13 +5,14 @@ body {
 section {
   display: flex;
 }
+
 .half-width {
   width: 50%;
-  padding-left: 5%;
-  padding-top: 5%;
+  padding: 2%;
 }
+
 .half-width img {
-  width: 80%;
+  width: 90%;
 }
 .half-width p {
   text-align: justify;
@@ -34,6 +35,11 @@ section {
 }
 .section-1 {
   background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-2 {
+  background-image: url(images/Frame\ 59.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
