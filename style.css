@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.half-width p {
+  text-align: justify;
+}
+.color-crimson {
+  font-size: 40px;
+  color: crimson;
+}
+.sub-heading {
+  color: orange;
+}
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(red, orange);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.section-1 {
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
