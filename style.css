@@ -5,6 +5,9 @@ body {
 .flexible-container {
   display: flex;
 }
+.heading{
+  font-size: 40px;
+}
 
 .half-width {
   width: 50%;
@@ -16,13 +19,15 @@ body {
 }
 .half-width p {
   text-align: justify;
+  font-size: 25px;
 }
 .color-crimson {
-  font-size: 40px;
+  font-size: 60px;
   color: crimson;
 }
 .sub-heading {
   color: orange;
+  font-size: 28px;
 }
 .button {
   text-decoration: none;
@@ -48,41 +53,31 @@ body {
   background-image: url(images/Frame\ 56.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 0;
+}
+.recipies{
+  text-align: center;
+  font-size: 25px;
 }
 
-.box-area {
-  justify-content: center;
-  margin: 0;
+.picture {
+  border-radius: 10px;
 }
-.box {
-  background: white;
-  width: 20%;
-  height: 60%%;
-  margin: 2%;
-  padding: 1%;
-  border: 10px solid rgb(241, 234, 234);
-  border-radius: 10%;
-  box-shadow: 10px 10px 45px;
+
 }
-.card-img {
-  background-color: aqua;
-  height: 200px;
-  margin-bottom: 10px;
-  background-size: cover;
-}
-.car-1 {
-  background-image: url(images/One-Pot-Pad-Thai-IG.jpg);
-}
-.car-2 {
-  background-image: url(images/5087507.jpg);
-}
-.car-3 {
-  background-image: url(images/spatchcock-chicken-4.jpg);
-}
-.box-heading {
+#my-recipies {
   text-align: center;
-  font-size: bold;
 }
+
+.column {
+  float: ;
+  width: 33%;
+  padding: 15px;
+  margin: 50px;
+  box-shadow: 10px 10px 55px gray;
+  border-radius: 8px;
+}
+
 footer {
   background-color: rgb(39, 39, 54);
   font size: 20px;
