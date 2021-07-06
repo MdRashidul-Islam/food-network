@@ -2,7 +2,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
 }
-section {
+.flexible-container {
   display: flex;
 }
 
@@ -42,4 +42,54 @@ section {
   background-image: url(images/Frame\ 59.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.section-3 {
+  background-image: url(images/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-area {
+  justify-content: center;
+  margin: 0;
+}
+.box {
+  background: white;
+  width: 20%;
+  height: 60%%;
+  margin: 2%;
+  padding: 1%;
+  border: 10px solid rgb(241, 234, 234);
+  border-radius: 10%;
+  box-shadow: 10px 10px 45px;
+}
+.card-img {
+  background-color: aqua;
+  height: 200px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.car-1 {
+  background-image: url(images/One-Pot-Pad-Thai-IG.jpg);
+}
+.car-2 {
+  background-image: url(images/5087507.jpg);
+}
+.car-3 {
+  background-image: url(images/spatchcock-chicken-4.jpg);
+}
+.box-heading {
+  text-align: center;
+  font-size: bold;
+}
+footer {
+  background-color: rgb(39, 39, 54);
+  font size: 20px;
+  text-align:center;
+  color:white;
+  padding:1%;
+}
+.color {
+  color: crimson;
 }
